@@ -9,7 +9,7 @@ public class Restaurant {
     public LocalTime openingTime;
     public LocalTime closingTime;
 
-    private List<Item> menu = new ArrayList<Item>();
+    private List<Item> menu = new ArrayList<>();
 
 
     public Restaurant(String name, String location, LocalTime openingTime, LocalTime closingTime) {
@@ -47,6 +47,7 @@ public class Restaurant {
     //Ex: when one restaurant "A" is created as object from class,then for each restaurant have menu list of "A" as object parameter
     //when restaurant "A" owner add item in menu it get added to "A" menu list
     // A.getMenu() will return the list of menu of restaurant "A"
+
     public List<Item> getMenu() {
         return this.menu;
         //DELETE ABOVE RETURN STATEMENT AND WRITE CODE HERE

@@ -6,12 +6,10 @@ public class RestaurantService {
     private static List<Restaurant> restaurants = new ArrayList<>();
 
     public Restaurant findRestaurantByName(String restaurantName) throws restaurantNotFoundException {
-        //return null;
-        //DELETE ABOVE STATEMENT AND WRITE CODE HERE
+
         for(Restaurant RestaurantName: restaurants) {
             if(RestaurantName.getName().equals(restaurantName))
-               // System.out.println(RestaurantName.getName());
-                //System.out.println(restaurantName);
+
                 return RestaurantName;
 
         }
