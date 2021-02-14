@@ -13,7 +13,7 @@ public class Item {
     }
 
     // added for TDD
-    public int getPrice(String name){return price;}
+    public int getPrice(){return price;}
 
     @Override
     public String toString(){

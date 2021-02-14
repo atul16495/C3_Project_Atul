@@ -91,7 +91,7 @@ public class Restaurant {
     public int orderPrice(List<String> ListItemNames){
         int Cost=0;
         for(String item:ListItemNames) {
-            Cost = Cost+findItemByName(item).getPrice(item);
+            Cost = Cost+findItemByName(item).getPrice();
 
 
         }
